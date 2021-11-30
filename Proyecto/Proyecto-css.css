@@ -1,0 +1,101 @@
+body {
+  background-color: black;
+}
+div h1 {
+  background-color: white;
+  text-align: center;
+  color:rgb(255, 0, 0); 
+  border: 3px solid rgb(16, 141, 26);  
+  font-size: 300%;
+}
+body {
+  margin: 1%;
+  color: rgba(255, 255, 255, 0.849);
+} 
+ul li a {
+  color: rgb(23, 173, 35);
+  font-size: 115%;
+}
+h2 {
+  color: rgba(255, 255, 255, 0.932);
+}
+p {
+  font-size: large;
+  margin-right: 1.5%;
+  text-align:justify;
+}
+div img {
+  margin-left: 25%;
+}
+div ul li a {
+  color: rgb(255, 0, 0);
+  font-size: 100%;
+}
+
+/*Diseño Responsivo*/
+
+/*Smartphones (vertical y horizontal)*/
+@media only screen
+and (min-device-width : 321px)
+and (max-device-width : 480px)
+{}
+body {
+  background-color: black;
+}
+
+/*Smartphones (horizontal)*/
+@media only screen
+and (min-width : 321px)
+{}
+body {
+  background-color: black;
+}
+/*Smartphones (vertical)*/
+@media only screen
+and (max-width : 320px)
+{}
+body {
+  background-color: black;
+}
+/*Tablets (vertical y horizontal)*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+{}
+body {
+  background-color: rgb(14, 14, 14);
+}
+/*Tablets (horizontal)*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+{}
+body {
+  background-color: rgba(14, 14, 14);
+}
+/*Tablets (vertical)*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+{}
+body {
+  background-color: rgba(14, 14, 14);
+}
+/*Desktops y Laptops*/
+@media only screen
+and (min-width : 1224px)
+{}
+body {
+  background-color: rgb(22, 22, 22);
+}
+/*Pantallas grandes*/
+@media only screen
+and (min-width : 1824px)
+{}
+body {
+  background-color: rgba(22, 22, 22, 0.945);
+}
+
+
